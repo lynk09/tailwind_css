@@ -1,0 +1,1702 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplos de clases Tailwind</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+  <main>
+    <div class="page-header">
+      <div class="header-title">EJEMPLOS DE CLASES TAILWIND</div>
+      <p>Una tarjeta por cada numero de la guía. Pasa el cursor sobre las tarjetas interactivas.</p>
+    </div>
+
+    <div class="container">
+      <div class="card">
+        <div class="tittle">1</div>
+        <div class="example text-blue-300">Azul claro</div>
+        <div class="description">Pone el color del texto en azul claro</div>
+        <div class="class-name">text-blue-300</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">2</div>
+        <div class="example bg-yellow-500 text-slate-950">Fondo amarillo</div>
+        <div class="description">Pone color de fondo amarillo</div>
+        <div class="class-name">bg-yellow-500</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">3</div>
+        <div class="example text-shadow-lg text-shadow-sky-300">Sombra azul claro</div>
+        <div class="description">Sombra grande para el texto y su color azul claro</div>
+        <div class="class-name">text-shadow-lg text-shadow-sky-300</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">4</div>
+        <div class="example border border-blue-300">Borde azul claro</div>
+        <div class="description">Borde de 1px y su color azul claro</div>
+        <div class="class-name">border border-blue-300</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">5</div>
+        <div class="example text-right">Texto a la derecha</div>
+        <div class="description">Alinea el texto a la derecha</div>
+        <div class="class-name">text-right</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">6</div>
+        <div class="example underline">Subrayado</div>
+        <div class="description">Subraya el texto</div>
+        <div class="class-name">underline</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">7</div>
+        <div class="example uppercase">&#161;TODO EN MAY&#218;SCULAS!</div>
+        <div class="description">Convierte el texto a may&#250;sculas</div>
+        <div class="class-name">uppercase</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">8</div>
+        <div class="example shadow-lg shadow-blue-300/50">Sombra suave</div>
+        <div class="description">Sombra grande de la caja con color azul claro al 50%</div>
+        <div class="class-name">shadow-lg shadow-blue-300/50</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">9</div>
+        <div class="example opacity-75">Casi transparente</div>
+        <div class="description">Deja el elemento al 75% de opacidad</div>
+        <div class="class-name">opacity-75</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">10</div>
+        <div class="example font-serif">Serif elegante</div>
+        <div class="description">Usa una fuente con serifas</div>
+        <div class="class-name">font-serif</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">11</div>
+        <div class="example text-xs">Letra peque&#241;a</div>
+        <div class="description">Tama&#241;o de letra extra peque&#241;o</div>
+        <div class="class-name">text-xs</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">12</div>
+        <div class="example font-semibold">Letra seminegrita</div>
+        <div class="description">Letra seminegrita (peso 600)</div>
+        <div class="class-name">font-semibold</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">13</div>
+        <div class="example italic">Letra inclinada</div>
+        <div class="description">Letra cursiva</div>
+        <div class="class-name">italic</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">14</div>
+        <div class="example truncate">Este texto largo se corta</div>
+        <div class="description">Corta el texto largo y pone puntos suspensivos</div>
+        <div class="class-name">truncate</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">15</div>
+        <div class="example underline decoration-yellow-400">Subrayado amarillo</div>
+        <div class="description">Color de la l&#237;nea del subrayado</div>
+        <div class="class-name">decoration-yellow-400</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">16</div>
+        <div class="example underline decoration-dotted">L&#237;nea punteada</div>
+        <div class="description">Subrayado punteado</div>
+        <div class="class-name">decoration-dotted</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">17</div>
+        <div class="example underline decoration-4">L&#237;nea gruesa</div>
+        <div class="description">Subrayado de 4px de grosor</div>
+        <div class="class-name">decoration-4</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">18</div>
+        <div class="example [text-align-last:right]">&#218;ltima l&#237;nea a la derecha</div>
+        <div class="description">Alinea a la derecha solo la &#250;ltima l&#237;nea</div>
+        <div class="class-name">[text-align-last:right]</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">19</div>
+        <div class="example text-justify">Este texto se reparte entre ambos m&#225;rgenes</div>
+        <div class="description">Justifica el texto para que llene todo el ancho</div>
+        <div class="class-name">text-justify</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">20</div>
+        <div class="example [line-break:anywhere]">palabrasinpausasqueigualsepuedencortar</div>
+        <div class="description">Permite cortar la l&#237;nea en cualquier punto</div>
+        <div class="class-name">[line-break:anywhere]</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">21</div>
+        <div class="example break-all">palabraslargasparacortar</div>
+        <div class="description">Rompe las palabras largas en cualquier letra</div>
+        <div class="class-name">break-all</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">22</div>
+        <div class="example rotate-45">Texto inclinado</div>
+        <div class="description">Gira el elemento 45 grados</div>
+        <div class="class-name">rotate-45</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">23</div>
+        <div class="example transition hover:scale-110">Pasa el cursor</div>
+        <div class="description">Suaviza los cambios de color y transformaci&#243;n &#183; Aplica la clase solo cuando el mouse est&#225; encima</div>
+        <div class="class-name">transition hover:scale-110</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">24</div>
+        <div class="example transition-colors bg-sky-700 hover:bg-blue-300 hover:text-slate-950">Cambia el color</div>
+        <div class="description">Suaviza solo los cambios de color &#183; Aplica la clase solo cuando el mouse est&#225; encima</div>
+        <div class="class-name">transition-colors hover:bg-blue-300</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">25</div>
+        <div class="example duration-500 transition-colors bg-blue-500 hover:bg-sky-300 hover:text-slate-950">Cambio lento</div>
+        <div class="description">La transici&#243;n dura 0.5 segundos &#183; Aplica la clase solo cuando el mouse est&#225; encima</div>
+        <div class="class-name">duration-500 hover:bg-sky-300</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">26</div>
+        <div class="example ease-in transition hover:scale-110">Crece al pasar</div>
+        <div class="description">Empieza lento y termina r&#225;pido &#183; Aplica la clase solo cuando el mouse est&#225; encima</div>
+        <div class="class-name">ease-in hover:scale-110</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">27</div>
+        <div class="example delay-200 transition-colors bg-gray-500 hover:bg-blue-300 hover:text-slate-950">Espera y cambia</div>
+        <div class="description">Espera 0.2 segundos antes de empezar &#183; Aplica la clase solo cuando el mouse est&#225; encima</div>
+        <div class="class-name">delay-200 hover:bg-blue-300</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">28</div>
+        <div class="example animate-spin">Gira sin parar</div>
+        <div class="description">Gira sin parar</div>
+        <div class="class-name">animate-spin</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">29</div>
+        <div class="example animate-ping">Pulso que se expande</div>
+        <div class="description">Crece y se desvanece como un radar</div>
+        <div class="class-name">animate-ping</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">30</div>
+        <div class="example animate-bounce [animation-duration:0.3s]">Rebota arriba y abajo</div>
+        <div class="description">La animaci&#243;n dura 0.3 segundos</div>
+        <div class="class-name">[animation-duration:0.3s]</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">31</div>
+        <div class="example [animation-delay:0.5s] animate-bounce">Rebota con demora</div>
+        <div class="description">Espera 0.5 segundos antes de animarse &#183; Rebota de arriba a abajo</div>
+        <div class="class-name">[animation-delay:0.5s] animate-bounce</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">32</div>
+        <div class="example [animation-iteration-count:3] animate-bounce">Tres rebotes</div>
+        <div class="description">Se repite solo 3 veces &#183; Rebota de arriba a abajo</div>
+        <div class="class-name">[animation-iteration-count:3] animate-bounce</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">33</div>
+        <div class="example [animation-direction:alternate] animate-bounce">Rebota de lado a lado</div>
+        <div class="description">Va y vuelve en cada ciclo &#183; Rebota de arriba a abajo</div>
+        <div class="class-name">[animation-direction:alternate] animate-bounce</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">34</div>
+        <div class="example [animation-fill-mode:forwards]">Termina y se queda</div>
+        <div class="description">Se queda en el &#250;ltimo fotograma al terminar</div>
+        <div class="class-name">[animation-fill-mode:forwards]</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">35</div>
+        <div class="example animate-spin [animation-play-state:paused]">Animaci&#243;n en pausa</div>
+        <div class="description">Deja la animaci&#243;n en pausa</div>
+        <div class="class-name">[animation-play-state:paused]</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">36</div>
+        <div class="example origin-center rotate-45">Centro de giro</div>
+        <div class="description">El punto de giro es el centro</div>
+        <div class="class-name">origin-center</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">37</div>
+        <div class="example scale-150">Escala 150%</div>
+        <div class="description">Agranda el elemento al 150%</div>
+        <div class="class-name">scale-150</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">38</div>
+        <div class="example rotate-90">Giro 90&#176;</div>
+        <div class="description">Gira 90 grados</div>
+        <div class="class-name">rotate-90</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">39</div>
+        <div class="example skew-x-6">Inclinaci&#243;n X</div>
+        <div class="description">Inclina el elemento 6 grados en horizontal</div>
+        <div class="class-name">skew-x-6</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">40</div>
+        <div class="example -translate-x-4">Desplazado izquierda</div>
+        <div class="description">Mueve el elemento a la izquierda</div>
+        <div class="class-name">-translate-x-4</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">41</div>
+        <div class="example perspective-[500px] rotate-y-45">Giro vertical 3D</div>
+        <div class="description">Da profundidad 3D al contenedor &#183; Gira el elemento sobre su eje vertical</div>
+        <div class="class-name">perspective-[500px] rotate-y-45</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">42</div>
+        <div class="example backface-hidden backface-visible">Cara visible</div>
+        <div class="description">Oculta el elemento si se ve por detr&#225;s &#183; Muestra el elemento aunque se vea por detr&#225;s</div>
+        <div class="class-name">backface-hidden backface-visible</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">43</div>
+        <div class="example border rounded-lg">Esquinas suaves</div>
+        <div class="description">Esquinas redondeadas</div>
+        <div class="class-name">rounded-lg</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">44</div>
+        <div class="example border-4 border-blue-300">Borde ancho</div>
+        <div class="description">Borde de 4px</div>
+        <div class="class-name">border-4</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">45</div>
+        <div class="example border border-dashed border-blue-300">Borde con rayas</div>
+        <div class="description">Borde con rayas</div>
+        <div class="class-name">border-dashed</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">46</div>
+        <div class="example table border-collapse">
+          <div class="demo-cell">A</div>
+          <div class="demo-cell">B</div>
+        </div>
+        <div class="description">Une los bordes de las celdas de una tabla</div>
+        <div class="class-name">border-collapse</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">47</div>
+        <div class="example table border-separate border-spacing-4">
+          <div class="demo-cell">A</div>
+          <div class="demo-cell">B</div>
+        </div>
+        <div class="description">Separa los bordes de las celdas 1rem</div>
+        <div class="class-name">border-separate border-spacing-4</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">48</div>
+        <div class="example outline-none">Sin contorno</div>
+        <div class="description">Quita el contorno que aparece al enfocar</div>
+        <div class="class-name">outline-none</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">49</div>
+        <div class="example overflow-hidden">Este texto largo se corta sin romper el dise&#241;o</div>
+        <div class="description">Oculta lo que se sale de la caja</div>
+        <div class="class-name">overflow-hidden</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">50</div>
+        <div class="example overflow-x-hidden whitespace-nowrap">Este texto largo se corta sin romper el dise&#241;o</div>
+        <div class="description">Oculta lo que se sale en horizontal &#183; Impide que el texto salte de l&#237;nea</div>
+        <div class="class-name">overflow-x-hidden whitespace-nowrap</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">51</div>
+        <div class="example overflow-y-hidden">Este texto largo se corta en vertical</div>
+        <div class="description">Oculta lo que se sale en vertical</div>
+        <div class="class-name">overflow-y-hidden</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">52</div>
+        <div class="example relative z-10">Encima (z-10)</div>
+        <div class="description">Pone el elemento por encima de los dem&#225;s</div>
+        <div class="class-name">relative z-10</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">53</div>
+        <div class="example pointer-events-none">Sin clics</div>
+        <div class="description">El elemento ignora los clics</div>
+        <div class="class-name">pointer-events-none</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">54</div>
+        <div class="example resize-none">Sin redimensionar</div>
+        <div class="description">Impide cambiar el tama&#241;o del textarea</div>
+        <div class="class-name">resize-none</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">55</div>
+        <div class="example cursor-pointer">Mano al pasar</div>
+        <div class="description">El cursor se vuelve una mano</div>
+        <div class="class-name">cursor-pointer</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">56</div>
+        <div class="example select-none">Sin selecci&#243;n</div>
+        <div class="description">No deja seleccionar el texto</div>
+        <div class="class-name">select-none</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">57</div>
+        <div class="example grayscale-50">Gris al 50%</div>
+        <div class="description">Quita la mitad del color</div>
+        <div class="class-name">grayscale-50</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">58</div>
+        <div class="example backdrop-blur-[10px]">Desenfoque 10px</div>
+        <div class="description">Desenfoca lo que hay detr&#225;s del elemento</div>
+        <div class="class-name">backdrop-blur-[10px]</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">59</div>
+        <div class="example mix-blend-screen">Mezcla screen</div>
+        <div class="description">Mezcla los colores con el fondo y aclara</div>
+        <div class="class-name">mix-blend-screen</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">60</div>
+        <div class="example [clip-path:polygon(50%_0,100%_100%,0_100%)]">Recorte</div>
+        <div class="description">Recorta el elemento con una forma personalizada</div>
+        <div class="class-name">[clip-path:polygon(...)]</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">61</div>
+        <div class="example will-change-transform">Will-change</div>
+        <div class="description">Avisa al navegador que habr&#225; transformaciones</div>
+        <div class="class-name">will-change-transform</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">62</div>
+        <div class="example isolate">Capa aislada</div>
+        <div class="description">Crea una capa aparte para el elemento</div>
+        <div class="class-name">isolate</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">63</div>
+        <div class="example">
+          <span class="float-left [shape-outside:circle(50%)] rounded-full size-10 bg-blue-300 text-slate-950 flex items-center justify-center mr-2">O</span>Texto rodeando la figura circular.
+        </div>
+        <div class="description">Hace flotar el elemento a la izquierda &#183; El texto rodea el elemento en forma de c&#237;rculo &#183; Lo vuelve un c&#237;rculo &#183; Ancho y alto de 2.5rem</div>
+        <div class="class-name">float-left [shape-outside:circle(50%)] rounded-full size-10</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">64</div>
+        <div class="example m-4">Margen 1rem</div>
+        <div class="description">Margen de 1rem por todos los lados</div>
+        <div class="class-name">m-4</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">65</div>
+        <div class="example mt-8">Margen superior</div>
+        <div class="description">Margen superior de 2rem</div>
+        <div class="class-name">mt-8</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">66</div>
+        <div class="example mr-12">Margen derecho</div>
+        <div class="description">Margen derecho de 3rem</div>
+        <div class="class-name">mr-12</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">67</div>
+        <div class="example mb-16">Margen inferior</div>
+        <div class="description">Margen inferior de 4rem</div>
+        <div class="class-name">mb-16</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">68</div>
+        <div class="example ml-20">Margen izquierdo</div>
+        <div class="description">Margen izquierdo de 5rem</div>
+        <div class="class-name">ml-20</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">69</div>
+        <div class="example p-6">Relleno 1.5rem</div>
+        <div class="description">Relleno de 1.5rem por todos los lados</div>
+        <div class="class-name">p-6</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">70</div>
+        <div class="example pt-10">Relleno superior</div>
+        <div class="description">Relleno superior de 2.5rem</div>
+        <div class="class-name">pt-10</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">71</div>
+        <div class="example pr-16">Relleno derecho</div>
+        <div class="description">Relleno derecho de 4rem</div>
+        <div class="class-name">pr-16</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">72</div>
+        <div class="example pb-20">Relleno inferior</div>
+        <div class="description">Relleno inferior de 5rem</div>
+        <div class="class-name">pb-20</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">73</div>
+        <div class="example pl-24">Relleno izquierdo</div>
+        <div class="description">Relleno izquierdo de 6rem</div>
+        <div class="class-name">pl-24</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">74</div>
+        <div class="example w-1/2">Ancho 50%</div>
+        <div class="description">Ancho del 50%</div>
+        <div class="class-name">w-1/2</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">75</div>
+        <div class="example min-w-64">Min 16rem</div>
+        <div class="description">Ancho m&#237;nimo de 16rem</div>
+        <div class="class-name">min-w-64</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">76</div>
+        <div class="example max-w-3xl">Max 48rem</div>
+        <div class="description">Ancho m&#225;ximo de 48rem</div>
+        <div class="class-name">max-w-3xl</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">77</div>
+        <div class="example h-64">Alto 16rem</div>
+        <div class="description">Alto de 16rem</div>
+        <div class="class-name">h-64</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">78</div>
+        <div class="example min-h-screen">Min pantalla</div>
+        <div class="description">Alto m&#237;nimo igual al de la pantalla</div>
+        <div class="class-name">min-h-screen</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">79</div>
+        <div class="example max-h-96">Max 24rem</div>
+        <div class="description">Alto m&#225;ximo de 24rem</div>
+        <div class="class-name">max-h-96</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">80</div>
+        <div class="example flex gap-2">
+          <div class="demo-cell">01</div>
+          <div class="demo-cell">02</div>
+          <div class="demo-cell">03</div>
+        </div>
+        <div class="description">Pone los hijos en fila &#183; Separaci&#243;n de 0.5rem entre hijos</div>
+        <div class="class-name">flex gap-2</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">81</div>
+        <div class="example flex flex-col">
+          <div class="demo-cell">01</div>
+          <div class="demo-cell">02</div>
+        </div>
+        <div class="description">Pone los hijos en columna</div>
+        <div class="class-name">flex-col</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">82</div>
+        <div class="example flex flex-wrap gap-1">
+          <div class="demo-cell">01</div>
+          <div class="demo-cell">02</div>
+          <div class="demo-cell">03</div>
+          <div class="demo-cell">04</div>
+          <div class="demo-cell">05</div>
+          <div class="demo-cell">06</div>
+        </div>
+        <div class="description">Los hijos pasan a la siguiente l&#237;nea si no caben</div>
+        <div class="class-name">flex-wrap</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">83</div>
+        <div class="example flex justify-between">
+          <div class="demo-cell">01</div>
+          <div class="demo-cell">02</div>
+          <div class="demo-cell">03</div>
+        </div>
+        <div class="description">Reparte los hijos con espacio entre ellos</div>
+        <div class="class-name">justify-between</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">84</div>
+        <div class="example flex items-center gap-2">
+          <div class="demo-cell">01</div>
+          <div class="demo-cell">02</div>
+        </div>
+        <div class="description">Centra los hijos en vertical</div>
+        <div class="class-name">items-center</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">85</div>
+        <div class="example flex gap-2">
+          <div class="demo-cell self-center">01</div>
+          <div class="demo-cell">02</div>
+        </div>
+        <div class="description">Centra solo ese hijo en vertical</div>
+        <div class="class-name">self-center</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">86</div>
+        <div class="example flex gap-2">
+          <div class="demo-cell order-1">01</div>
+          <div class="demo-cell">02</div>
+        </div>
+        <div class="description">Cambia el orden del hijo</div>
+        <div class="class-name">order-1</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">87</div>
+        <div class="example flex flex-wrap content-center gap-1">
+          <div class="demo-cell">01</div>
+          <div class="demo-cell">02</div>
+          <div class="demo-cell">03</div>
+        </div>
+        <div class="description">Centra las filas de un flex con varias l&#237;neas</div>
+        <div class="class-name">content-center</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">88</div>
+        <div class="example flex gap-2">
+          <div class="demo-cell shrink-0">01</div>
+          <div class="demo-cell">02</div>
+        </div>
+        <div class="description">El hijo no se encoge</div>
+        <div class="class-name">shrink-0</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">89</div>
+        <div class="example flex gap-2">
+          <div class="demo-cell grow">01</div>
+          <div class="demo-cell">02</div>
+        </div>
+        <div class="description">El hijo ocupa el espacio sobrante</div>
+        <div class="class-name">grow</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">90</div>
+        <div class="example flex gap-2">
+          <div class="demo-cell basis-1/4">01</div>
+          <div class="demo-cell">02</div>
+        </div>
+        <div class="description">El hijo empieza con un cuarto del ancho</div>
+        <div class="class-name">basis-1/4</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">91</div>
+        <div class="example grid gap-1">
+          <div class="demo-cell">01</div>
+          <div class="demo-cell">02</div>
+        </div>
+        <div class="description">Activa la cuadr&#237;cula</div>
+        <div class="class-name">grid</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">92</div>
+        <div class="example grid grid-cols-2 gap-1">
+          <div class="demo-cell">01</div>
+          <div class="demo-cell">02</div>
+          <div class="demo-cell">03</div>
+          <div class="demo-cell">04</div>
+        </div>
+        <div class="description">Dos columnas iguales</div>
+        <div class="class-name">grid-cols-2</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">93</div>
+        <div class="example grid grid-rows-3 grid-flow-col gap-1">
+          <div class="demo-cell">01</div>
+          <div class="demo-cell">02</div>
+          <div class="demo-cell">03</div>
+          <div class="demo-cell">04</div>
+        </div>
+        <div class="description">Tres filas iguales &#183; Llena la cuadr&#237;cula por columnas</div>
+        <div class="class-name">grid-rows-3 grid-flow-col</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">94</div>
+        <div class="example grid auto-cols-auto grid-flow-col gap-1">
+          <div class="demo-cell">01</div>
+          <div class="demo-cell">02</div>
+        </div>
+        <div class="description">Las columnas autom&#225;ticas se ajustan al contenido</div>
+        <div class="class-name">auto-cols-auto</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">95</div>
+        <div class="example grid auto-rows-auto gap-1">
+          <div class="demo-cell">01</div>
+          <div class="demo-cell">02</div>
+        </div>
+        <div class="description">Las filas autom&#225;ticas se ajustan al contenido</div>
+        <div class="class-name">auto-rows-auto</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">96</div>
+        <div class="example grid">
+          <div class="demo-cell justify-self-center">01</div>
+        </div>
+        <div class="description">Centra ese hijo en horizontal dentro de su celda</div>
+        <div class="class-name">justify-self-center</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">97</div>
+        <div class="example grid grid-cols-4 gap-1">
+          <div class="demo-cell">01</div>
+          <div class="demo-cell">02</div>
+          <div class="demo-cell">03</div>
+          <div class="demo-cell">04</div>
+        </div>
+        <div class="description">Cuatro columnas iguales</div>
+        <div class="class-name">grid-cols-4</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">100</div>
+        <div class="example grid auto-cols-fr grid-flow-col gap-1">
+          <div class="demo-cell">01</div>
+          <div class="demo-cell">02</div>
+        </div>
+        <div class="description">Las columnas autom&#225;ticas reparten el espacio igual</div>
+        <div class="class-name">auto-cols-fr</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">101</div>
+        <div class="example grid auto-rows-fr gap-1">
+          <div class="demo-cell">01</div>
+          <div class="demo-cell">02</div>
+        </div>
+        <div class="description">Las filas autom&#225;ticas reparten el espacio igual</div>
+        <div class="class-name">auto-rows-fr</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">102</div>
+        <div class="example grid grid-cols-2 gap-4">
+          <div class="demo-cell">01</div>
+          <div class="demo-cell">02</div>
+        </div>
+        <div class="description">Separaci&#243;n de 1rem entre celdas</div>
+        <div class="class-name">gap-4</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">103</div>
+        <div class="example grid grid-cols-2 justify-items-center gap-1">
+          <div class="demo-cell">01</div>
+          <div class="demo-cell">02</div>
+        </div>
+        <div class="description">Centra todos los hijos en horizontal</div>
+        <div class="class-name">justify-items-center</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">104</div>
+        <div class="example grid grid-cols-2 items-start gap-1">
+          <div class="demo-cell">01</div>
+          <div class="demo-cell">02</div>
+        </div>
+        <div class="description">Alinea los hijos arriba</div>
+        <div class="class-name">items-start</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">107</div>
+        <div class="example grid grid-cols-2 gap-x-4">
+          <div class="demo-cell">01</div>
+          <div class="demo-cell">02</div>
+        </div>
+        <div class="description">Separaci&#243;n horizontal de 1rem</div>
+        <div class="class-name">gap-x-4</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">108</div>
+        <div class="example grid grid-cols-2 gap-y-4">
+          <div class="demo-cell">01</div>
+          <div class="demo-cell">02</div>
+          <div class="demo-cell">03</div>
+          <div class="demo-cell">04</div>
+        </div>
+        <div class="description">Separaci&#243;n vertical de 1rem</div>
+        <div class="class-name">gap-y-4</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">110</div>
+        <div class="example grid grid-cols-2 place-content-center gap-1">
+          <div class="demo-cell">01</div>
+          <div class="demo-cell">02</div>
+        </div>
+        <div class="description">Centra todo el contenido de la cuadr&#237;cula</div>
+        <div class="class-name">place-content-center</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">111</div>
+        <div class="example grid grid-cols-2 place-items-center gap-1">
+          <div class="demo-cell">01</div>
+          <div class="demo-cell">02</div>
+        </div>
+        <div class="description">Centra cada hijo dentro de su celda</div>
+        <div class="class-name">place-items-center</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">149</div>
+        <div class="example grid">
+          <div class="demo-cell place-self-center">01</div>
+        </div>
+        <div class="description">Centra ese hijo dentro de su celda</div>
+        <div class="class-name">place-self-center</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">112</div>
+        <div class="example border border-blue-300">Borde 1px</div>
+        <div class="description">Borde de 1px por todos los lados</div>
+        <div class="class-name">border</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">113</div>
+        <div class="example border-t-2 border-blue-300">Borde superior</div>
+        <div class="description">Borde superior de 2px</div>
+        <div class="class-name">border-t-2</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">114</div>
+        <div class="example border-r-4 border-blue-300">Borde derecho</div>
+        <div class="description">Borde derecho de 4px</div>
+        <div class="class-name">border-r-4</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">115</div>
+        <div class="example border-b border-blue-300">Borde inferior</div>
+        <div class="description">Borde inferior de 1px</div>
+        <div class="class-name">border-b</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">116</div>
+        <div class="example border-l border-blue-300">Borde izquierdo</div>
+        <div class="description">Borde izquierdo de 1px</div>
+        <div class="class-name">border-l</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">117</div>
+        <div class="example border border-blue-300/60">Borde azul claro</div>
+        <div class="description">Borde azul claro al 60% de opacidad</div>
+        <div class="class-name">border-blue-300/60</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">118</div>
+        <div class="example divide-y flex-col">
+          <div class="demo-cell">A</div>
+          <div class="demo-cell">B</div>
+        </div>
+        <div class="description">L&#237;nea horizontal entre los hijos</div>
+        <div class="class-name">divide-y</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">119</div>
+        <div class="example divide-x flex">
+          <div class="demo-cell">A</div>
+          <div class="demo-cell">B</div>
+        </div>
+        <div class="description">L&#237;nea vertical entre los hijos</div>
+        <div class="class-name">divide-x</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">120</div>
+        <div class="example divide-x divide-white/75 flex">
+          <div class="demo-cell">A</div>
+          <div class="demo-cell">B</div>
+        </div>
+        <div class="description">Color de esas l&#237;neas blanco al 75%</div>
+        <div class="class-name">divide-white/75</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">121</div>
+        <div class="example divide-x divide-dashed flex">
+          <div class="demo-cell">A</div>
+          <div class="demo-cell">B</div>
+        </div>
+        <div class="description">Esas l&#237;neas con rayas</div>
+        <div class="class-name">divide-dashed</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">122</div>
+        <div class="example divide-x-2 flex">
+          <div class="demo-cell">A</div>
+          <div class="demo-cell">B</div>
+        </div>
+        <div class="description">L&#237;neas verticales de 2px</div>
+        <div class="class-name">divide-x-2</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">123</div>
+        <div class="example backdrop-opacity-50">Opacidad filtro</div>
+        <div class="description">Baja la opacidad del filtro de fondo</div>
+        <div class="class-name">backdrop-opacity-50</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">124</div>
+        <div class="example animate-pulse">Pulso suave</div>
+        <div class="description">Parpadea suave</div>
+        <div class="class-name">animate-pulse</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">125</div>
+        <div class="example animate-bounce-x">Rebote X</div>
+        <div class="description">Rebota en horizontal</div>
+        <div class="class-name">animate-bounce-x</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">126</div>
+        <div class="example animate-ping-slow">Ping lento</div>
+        <div class="description">Ping m&#225;s lento</div>
+        <div class="class-name">animate-ping-slow</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">127</div>
+        <div class="example animate-scale-y">Escala Y</div>
+        <div class="description">Crece en vertical</div>
+        <div class="class-name">animate-scale-y</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">128</div>
+        <div class="example tracking-wider">Espaciado letras</div>
+        <div class="description">M&#225;s espacio entre letras</div>
+        <div class="class-name">tracking-wider</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">129</div>
+        <div class="example [word-spacing:0.2em]">Espaciado entre palabras</div>
+        <div class="description">M&#225;s espacio entre palabras</div>
+        <div class="class-name">[word-spacing:0.2em]</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">130</div>
+        <div class="example leading-10">Altura de l&#237;nea</div>
+        <div class="description">Altura de l&#237;nea de 2.5rem</div>
+        <div class="class-name">leading-10</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">131</div>
+        <div class="example align-baseline">L&#237;nea base</div>
+        <div class="description">Alinea con la l&#237;nea base del texto</div>
+        <div class="class-name">align-baseline</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">132</div>
+        <div class="example whitespace-nowrap">Sin salto de l&#237;nea</div>
+        <div class="description">No salta de l&#237;nea</div>
+        <div class="class-name">whitespace-nowrap</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">133</div>
+        <div class="example break-words">Supercalifragilisticoespialidoso</div>
+        <div class="description">Parte palabras largas solo si no caben</div>
+        <div class="class-name">break-words</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">134</div>
+        <div class="example wrap-normal">Corte normal</div>
+        <div class="description">Desactiva el corte de palabras</div>
+        <div class="class-name">wrap-normal</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">135</div>
+        <div class="example visible">Visible</div>
+        <div class="description">El elemento se ve</div>
+        <div class="class-name">visible</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">136</div>
+        <div class="example static">Est&#225;tico</div>
+        <div class="description">Posici&#243;n normal sin desplazamientos</div>
+        <div class="class-name">static</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">137</div>
+        <div class="position-stage">
+          <div class="example relative top-0">Arriba (top-0)</div>
+        </div>
+        <div class="description">Pegado al borde superior &#183; Permite mover el elemento desde su lugar</div>
+        <div class="class-name">relative top-0</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">138</div>
+        <div class="position-stage">
+          <div class="example relative right-0">Derecha (right-0)</div>
+        </div>
+        <div class="description">Pegado al borde derecho &#183; Permite mover el elemento desde su lugar</div>
+        <div class="class-name">relative right-0</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">139</div>
+        <div class="position-stage">
+          <div class="example relative bottom-0">Abajo (bottom-0)</div>
+        </div>
+        <div class="description">Pegado al borde inferior &#183; Permite mover el elemento desde su lugar</div>
+        <div class="class-name">relative bottom-0</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">140</div>
+        <div class="position-stage">
+          <div class="example relative left-0">Izquierda (left-0)</div>
+        </div>
+        <div class="description">Pegado al borde izquierdo &#183; Permite mover el elemento desde su lugar</div>
+        <div class="class-name">relative left-0</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">141</div>
+        <div class="example">
+          <span class="float-left bg-blue-300 text-slate-950 px-2 py-1 rounded mr-2">F</span>Texto que rodea al elemento flotante.
+        </div>
+        <div class="description">Flota a la izquierda y el texto lo rodea</div>
+        <div class="class-name">float-left</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">142</div>
+        <div class="example flex-col">
+          <span class="float-left bg-blue-300 text-slate-950 px-2 rounded">F</span>
+          <span class="clear-left">Debajo</span>
+        </div>
+        <div class="description">Se coloca debajo de los flotantes de la izquierda</div>
+        <div class="class-name">clear-left</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">143</div>
+        <div class="example">
+          <span class="hidden">Oculto</span>
+          <span>Espacio libre</span>
+        </div>
+        <div class="description">Oculta el elemento y quita su espacio</div>
+        <div class="class-name">hidden</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">144</div>
+        <div class="position-stage">
+          <div class="example absolute inset-0">Cubre todo</div>
+        </div>
+        <div class="description">Cubre todo el contenedor</div>
+        <div class="class-name">absolute inset-0</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">145</div>
+        <div class="position-stage">
+          <div class="example absolute inset-x-0">Ancho completo</div>
+        </div>
+        <div class="description">Se estira de izquierda a derecha</div>
+        <div class="class-name">inset-x-0</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">146</div>
+        <div class="position-stage">
+          <div class="example absolute inset-y-0">Alto completo</div>
+        </div>
+        <div class="description">Se estira de arriba a abajo</div>
+        <div class="class-name">inset-y-0</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">147</div>
+        <div class="position-stage">
+          <div class="example relative inset-x-auto">Auto X</div>
+        </div>
+        <div class="description">Deja izquierda y derecha en autom&#225;tico</div>
+        <div class="class-name">inset-x-auto</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">148</div>
+        <div class="position-stage">
+          <div class="example relative inset-y-auto">Auto Y</div>
+        </div>
+        <div class="description">Deja arriba y abajo en autom&#225;tico</div>
+        <div class="class-name">inset-y-auto</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">150</div>
+        <div class="example bg-linear-to-r from-pink-500 to-yellow-400">
+          <span class="backdrop-blur-[8px] px-2 py-1 rounded text-slate-950 font-semibold">Blur 8px</span>
+        </div>
+        <div class="description">Desenfoque de 8px &#183; Fondo con degradado para que el filtro se note</div>
+        <div class="class-name">backdrop-blur-[8px]</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">151</div>
+        <div class="example bg-linear-to-r from-pink-500 to-yellow-400">
+          <span class="backdrop-brightness-75 px-2 py-1 rounded text-slate-950 font-semibold">Brillo 75%</span>
+        </div>
+        <div class="description">Baja el brillo al 75% &#183; Fondo con degradado para que el filtro se note</div>
+        <div class="class-name">backdrop-brightness-75</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">152</div>
+        <div class="example bg-linear-to-r from-pink-500 to-yellow-400">
+          <span class="backdrop-contrast-125 px-2 py-1 rounded text-slate-950 font-semibold">Contraste 125%</span>
+        </div>
+        <div class="description">Sube el contraste al 125% &#183; Fondo con degradado para que el filtro se note</div>
+        <div class="class-name">backdrop-contrast-125</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">153</div>
+        <div class="example bg-linear-to-r from-pink-500 to-yellow-400">
+          <span class="backdrop-grayscale-50 px-2 py-1 rounded text-slate-950 font-semibold">Gris 50%</span>
+        </div>
+        <div class="description">Quita la mitad del color &#183; Fondo con degradado para que el filtro se note</div>
+        <div class="class-name">backdrop-grayscale-50</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">154</div>
+        <div class="example bg-linear-to-r from-pink-500 to-yellow-400">
+          <span class="backdrop-hue-rotate-90 px-2 py-1 rounded text-slate-950 font-semibold">Tono 90&#176;</span>
+        </div>
+        <div class="description">Cambia los colores 90 grados &#183; Fondo con degradado para que el filtro se note</div>
+        <div class="class-name">backdrop-hue-rotate-90</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">155</div>
+        <div class="example bg-linear-to-r from-pink-500 to-yellow-400">
+          <span class="backdrop-invert px-2 py-1 rounded font-semibold">Invertir</span>
+        </div>
+        <div class="description">Invierte los colores &#183; Fondo con degradado para que el filtro se note</div>
+        <div class="class-name">backdrop-invert</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">156</div>
+        <div class="example bg-linear-to-r from-pink-500 to-yellow-400">
+          <span class="backdrop-opacity-50 px-2 py-1 rounded text-slate-950 font-semibold">Opacidad 50%</span>
+        </div>
+        <div class="description">Opacidad al 50% &#183; Fondo con degradado para que el filtro se note</div>
+        <div class="class-name">backdrop-opacity-50</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">157</div>
+        <div class="example bg-linear-to-r from-pink-500 to-yellow-400">
+          <span class="backdrop-saturate-150 px-2 py-1 rounded text-slate-950 font-semibold">Saturaci&#243;n 150%</span>
+        </div>
+        <div class="description">Colores m&#225;s intensos &#183; Fondo con degradado para que el filtro se note</div>
+        <div class="class-name">backdrop-saturate-150</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">158</div>
+        <div class="example bg-linear-to-r from-pink-500 to-yellow-400">
+          <span class="backdrop-sepia-50 px-2 py-1 rounded text-slate-950 font-semibold">Sepia 50%</span>
+        </div>
+        <div class="description">Tono sepia al 50% &#183; Fondo con degradado para que el filtro se note</div>
+        <div class="class-name">backdrop-sepia-50</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">159</div>
+        <div class="example mix-blend-darken">Mezcla darken</div>
+        <div class="description">Se queda con el color m&#225;s oscuro entre el elemento y el fondo</div>
+        <div class="class-name">mix-blend-darken</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">160</div>
+        <div class="example animate-spin hover:animate-none">Gira / Pausa</div>
+        <div class="description">Gira y se detiene al pasar el mouse</div>
+        <div class="class-name">animate-spin hover:animate-none</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">161</div>
+        <div class="example animate-spin [animation-direction:reverse]">Giro inverso</div>
+        <div class="description">Gira al rev&#233;s</div>
+        <div class="class-name">[animation-direction:reverse]</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">162</div>
+        <div class="example animate-zoom-in">Zoom in</div>
+        <div class="description">Aparece creciendo</div>
+        <div class="class-name">animate-zoom-in</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">163</div>
+        <div class="example animate-slide-up">Slide up</div>
+        <div class="description">Aparece desliz&#225;ndose desde abajo</div>
+        <div class="class-name">animate-slide-up</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">164</div>
+        <div class="example animate-fade-in">Fade in</div>
+        <div class="description">Aparece poco a poco</div>
+        <div class="class-name">animate-fade-in</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">165</div>
+        <div class="example animate-rotate-45">Rotate 45</div>
+        <div class="description">Gira hasta 45 grados</div>
+        <div class="class-name">animate-rotate-45</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">166</div>
+        <div class="example animate-slide-fade-up">Slide fade up</div>
+        <div class="description">Sube un poco mientras aparece</div>
+        <div class="class-name">animate-slide-fade-up</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">167</div>
+        <div class="example animate-bounce-scale-down">Bounce scale</div>
+        <div class="description">Rebota y se encoge</div>
+        <div class="class-name">animate-bounce-scale-down</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">168</div>
+        <div class="example animate-flip-x">Flip X</div>
+        <div class="description">Se voltea sobre el eje horizontal</div>
+        <div class="class-name">animate-flip-x</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">169</div>
+        <div class="example animate-pulse-slow">Pulse slow</div>
+        <div class="description">Pulso lento</div>
+        <div class="class-name">animate-pulse-slow</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">170</div>
+        <div class="example animate-wiggle-slow">Wiggle</div>
+        <div class="description">Se menea de lado a lado</div>
+        <div class="class-name">animate-wiggle-slow</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">171</div>
+        <div class="example animate-blink-slow">Blink</div>
+        <div class="description">Parpadea</div>
+        <div class="class-name">animate-blink-slow</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">172</div>
+        <div class="example animate-slide-bounce-up">Slide bounce</div>
+        <div class="description">Sube y rebota al llegar</div>
+        <div class="class-name">animate-slide-bounce-up</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">173</div>
+        <div class="example animate-heartbeat-slow">Heartbeat</div>
+        <div class="description">Late como un coraz&#243;n</div>
+        <div class="class-name">animate-heartbeat-slow</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">174</div>
+        <div class="example animate-rubberband-slow">Rubberband</div>
+        <div class="description">Se estira como una liga</div>
+        <div class="class-name">animate-rubberband-slow</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">175</div>
+        <div class="example animate-head-shake-slow">Head shake</div>
+        <div class="description">Se sacude de lado a lado</div>
+        <div class="class-name">animate-head-shake-slow</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">176</div>
+        <div class="example animate-jello-slow">Jello</div>
+        <div class="description">Se deforma como gelatina</div>
+        <div class="class-name">animate-jello-slow</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">177</div>
+        <div class="example animate-tada-slow">Tada</div>
+        <div class="description">Efecto de llamar la atenci&#243;n</div>
+        <div class="class-name">animate-tada-slow</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">178</div>
+        <div class="example animate-bounce-in-left">Bounce left</div>
+        <div class="description">Entra rebotando desde la izquierda</div>
+        <div class="class-name">animate-bounce-in-left</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">179</div>
+        <div class="example animate-bounce-in-right">Bounce right</div>
+        <div class="description">Entra rebotando desde la derecha</div>
+        <div class="class-name">animate-bounce-in-right</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">180</div>
+        <div class="example animate-bounce-in-up">Bounce up</div>
+        <div class="description">Entra rebotando desde arriba</div>
+        <div class="class-name">animate-bounce-in-up</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">181</div>
+        <div class="example animate-bounce-in-down">Bounce down</div>
+        <div class="description">Entra rebotando desde abajo</div>
+        <div class="class-name">animate-bounce-in-down</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">182</div>
+        <div class="example animate-fade-in-left">Fade left</div>
+        <div class="description">Entra apareciendo desde la izquierda</div>
+        <div class="class-name">animate-fade-in-left</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">183</div>
+        <div class="example animate-fade-in-right">Fade right</div>
+        <div class="description">Entra apareciendo desde la derecha</div>
+        <div class="class-name">animate-fade-in-right</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">184</div>
+        <div class="example animate-fade-in-up">Fade up</div>
+        <div class="description">Entra apareciendo desde arriba</div>
+        <div class="class-name">animate-fade-in-up</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">185</div>
+        <div class="example animate-fade-in-down">Fade down</div>
+        <div class="description">Entra apareciendo desde abajo</div>
+        <div class="class-name">animate-fade-in-down</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">186</div>
+        <div class="example animate-slide-in-left">Slide left</div>
+        <div class="description">Entra desliz&#225;ndose desde la izquierda</div>
+        <div class="class-name">animate-slide-in-left</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">187</div>
+        <div class="example animate-slide-in-right">Slide right</div>
+        <div class="description">Entra desliz&#225;ndose desde la derecha</div>
+        <div class="class-name">animate-slide-in-right</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">188</div>
+        <div class="example animate-slide-in-up">Slide up</div>
+        <div class="description">Entra desliz&#225;ndose desde arriba</div>
+        <div class="class-name">animate-slide-in-up</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">189</div>
+        <div class="example animate-slide-in-down">Slide down</div>
+        <div class="description">Entra desliz&#225;ndose desde abajo</div>
+        <div class="class-name">animate-slide-in-down</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">190</div>
+        <div class="example hyphens-auto">Extraordinariamente largo</div>
+        <div class="description">Parte las palabras con gui&#243;n al final de l&#237;nea</div>
+        <div class="class-name">hyphens-auto</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">191</div>
+        <div class="example overscroll-auto overflow-auto">Overscroll</div>
+        <div class="description">Comportamiento normal al llegar al final del scroll</div>
+        <div class="class-name">overscroll-auto</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">192</div>
+        <div class="example overscroll-x-auto overflow-x-auto">Overscroll X</div>
+        <div class="description">Comportamiento normal al llegar al final del scroll en horizontal</div>
+        <div class="class-name">overscroll-x-auto</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">193</div>
+        <div class="example overscroll-y-auto overflow-y-auto">Overscroll Y</div>
+        <div class="description">Comportamiento normal al llegar al final del scroll en vertical</div>
+        <div class="class-name">overscroll-y-auto</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">194</div>
+        <div class="example scroll-auto overflow-auto">Scroll normal</div>
+        <div class="description">Desplazamiento normal sin animaci&#243;n suave</div>
+        <div class="class-name">scroll-auto</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">195</div>
+        <div class="example transform-3d rotate-y-45">Espacio 3D</div>
+        <div class="description">Permite que los hijos se muevan en 3D</div>
+        <div class="class-name">transform-3d</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">196</div>
+        <div class="example perspective-[500px] perspective-origin-bottom">Perspectiva abajo</div>
+        <div class="description">El punto de vista de la perspectiva est&#225; abajo</div>
+        <div class="class-name">perspective-origin-bottom</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">197</div>
+        <div class="example [transform-box:border-box] rotate-45">Border-box</div>
+        <div class="description">Las transformaciones usan el borde como referencia</div>
+        <div class="class-name">[transform-box:border-box]</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">198</div>
+        <div class="example animate-bounce [animation-timing-function:ease-out]">Ease-out</div>
+        <div class="description">La animaci&#243;n termina lenta</div>
+        <div class="class-name">[animation-timing-function:ease-out]</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">199</div>
+        <div class="example origin-left rotate-45">Origen izq.</div>
+        <div class="description">Gira desde el lado izquierdo</div>
+        <div class="class-name">origin-left</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">200</div>
+        <div class="example origin-top rotate-45">Origen arriba</div>
+        <div class="description">Gira desde arriba</div>
+        <div class="class-name">origin-top</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">201</div>
+        <div class="example origin-bottom rotate-45">Origen abajo</div>
+        <div class="description">Gira desde abajo</div>
+        <div class="class-name">origin-bottom</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">202</div>
+        <div class="example">
+          <div class="w-12 h-12 rounded bg-blue-300 text-slate-950 flex items-center justify-center object-contain font-semibold">IMG</div>
+        </div>
+        <div class="description">La imagen se ve completa dentro de su caja</div>
+        <div class="class-name">object-contain</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">203</div>
+        <div class="example">
+          <div class="w-12 h-12 rounded bg-blue-300 text-slate-950 flex items-center justify-center object-cover object-center font-semibold">IMG</div>
+        </div>
+        <div class="description">La imagen llena la caja y se centra</div>
+        <div class="class-name">object-cover object-center</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">204</div>
+        <div class="example touch-none">Sin gestos</div>
+        <div class="description">Desactiva los gestos t&#225;ctiles</div>
+        <div class="class-name">touch-none</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">205</div>
+        <div class="example flex overflow-x-auto snap-x snap-mandatory gap-2 w-36">
+          <div class="demo-cell snap-start shrink-0">01</div>
+          <div class="demo-cell snap-start shrink-0">02</div>
+          <div class="demo-cell snap-start shrink-0">03</div>
+        </div>
+        <div class="description">El scroll horizontal siempre se detiene en un punto marcado</div>
+        <div class="class-name">snap-x snap-mandatory</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">206</div>
+        <div class="example flex overflow-x-auto snap-x gap-2 w-36">
+          <div class="demo-cell snap-start shrink-0">Inicio</div>
+          <div class="demo-cell shrink-0">02</div>
+        </div>
+        <div class="description">Ese hijo es un punto de parada al inicio</div>
+        <div class="class-name">snap-start</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">207</div>
+        <div class="example flex overflow-x-auto snap-x scroll-p-4 gap-2 w-36">
+          <div class="demo-cell snap-start shrink-0">01</div>
+          <div class="demo-cell shrink-0">02</div>
+        </div>
+        <div class="description">Deja 1rem de espacio al frenar en cualquier lado</div>
+        <div class="class-name">scroll-p-4</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">208</div>
+        <div class="example flex overflow-x-auto snap-x gap-2 w-36">
+          <div class="demo-cell snap-start scroll-m-4 shrink-0">01</div>
+          <div class="demo-cell shrink-0">02</div>
+        </div>
+        <div class="description">Deja 1rem de espacio alrededor de ese hijo al frenar</div>
+        <div class="class-name">scroll-m-4</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">209</div>
+        <div class="example flex overflow-x-auto snap-x gap-2 w-36">
+          <div class="demo-cell snap-start scroll-mt-4 shrink-0">01</div>
+          <div class="demo-cell shrink-0">02</div>
+        </div>
+        <div class="description">Espacio arriba al frenar</div>
+        <div class="class-name">scroll-mt-4</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">210</div>
+        <div class="example flex overflow-x-auto snap-x gap-2 w-36">
+          <div class="demo-cell snap-start scroll-mr-4 shrink-0">01</div>
+          <div class="demo-cell shrink-0">02</div>
+        </div>
+        <div class="description">Espacio a la derecha al frenar</div>
+        <div class="class-name">scroll-mr-4</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">211</div>
+        <div class="example flex overflow-x-auto snap-x gap-2 w-36">
+          <div class="demo-cell snap-start scroll-mb-4 shrink-0">01</div>
+          <div class="demo-cell shrink-0">02</div>
+        </div>
+        <div class="description">Espacio abajo al frenar</div>
+        <div class="class-name">scroll-mb-4</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">212</div>
+        <div class="example flex overflow-x-auto snap-x gap-2 w-36">
+          <div class="demo-cell snap-start scroll-ml-4 shrink-0">01</div>
+          <div class="demo-cell shrink-0">02</div>
+        </div>
+        <div class="description">Espacio a la izquierda al frenar</div>
+        <div class="class-name">scroll-ml-4</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">213</div>
+        <div class="example flex overflow-x-auto snap-x scroll-pt-4 gap-2 w-36">
+          <div class="demo-cell snap-start shrink-0">01</div>
+          <div class="demo-cell shrink-0">02</div>
+        </div>
+        <div class="description">Relleno arriba del contenedor al frenar</div>
+        <div class="class-name">scroll-pt-4</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">214</div>
+        <div class="example flex overflow-x-auto snap-x scroll-pr-4 gap-2 w-36">
+          <div class="demo-cell snap-start shrink-0">01</div>
+          <div class="demo-cell shrink-0">02</div>
+        </div>
+        <div class="description">Relleno a la derecha del contenedor</div>
+        <div class="class-name">scroll-pr-4</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">215</div>
+        <div class="example flex overflow-x-auto snap-x scroll-pb-4 gap-2 w-36">
+          <div class="demo-cell snap-start shrink-0">01</div>
+          <div class="demo-cell shrink-0">02</div>
+        </div>
+        <div class="description">Relleno abajo del contenedor</div>
+        <div class="class-name">scroll-pb-4</div>
+      </div>
+
+      <div class="card">
+        <div class="tittle">216</div>
+        <div class="example flex overflow-x-auto snap-x scroll-pl-4 gap-2 w-36">
+          <div class="demo-cell snap-start shrink-0">01</div>
+          <div class="demo-cell shrink-0">02</div>
+        </div>
+        <div class="description">Relleno a la izquierda del contenedor</div>
+        <div class="class-name">scroll-pl-4</div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
